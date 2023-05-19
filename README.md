@@ -11,7 +11,7 @@ version: '3'
   services:
   dnsmasq:
     container_name: dnsmasq
-    image: ghcr.io/chrisanderton/docker-dnsmasq:v1.0.2
+    image: ghcr.io/chrisanderton/docker-dnsmasq:v2.8.9
     command:
       - --no-hosts
       - --addn-hosts=/etc/hosts.custom
